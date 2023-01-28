@@ -238,13 +238,13 @@
     background: #00A4E5;
 }
 
-.servises__wrapper{
+.capabilities__servises{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.servises__wrapper .descr{
+.capabilities__servises .descr{
     max-width: 406px;
     font-family: 'Open Sans';
     font-size: 11px;
@@ -259,7 +259,7 @@
     margin-bottom: 10px;
 }
 
-.servises__wrapper button{
+.capabilities__servises button{
     width: 150px;
     height: 40px;
     left: 0px;
@@ -277,7 +277,7 @@
     transition: 0.5s;
 }
 
-.servises__wrapper button:hover{
+.capabilities__servises button:hover{
     cursor: pointer;
     background: #0067e5;
 }
@@ -559,12 +559,12 @@
         flex-direction: column;
         align-items: center;
     }
-    .servises__wrapper{
+    .capabilities__servises{
         flex-direction: column;
         align-items: center;
         gap: 10px;
     }
-    .servises__wrapper .descr{
+    .capabilities__servises .descr{
         text-align: center;
     }
 }
